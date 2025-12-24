@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 np.random.seed(42)  # for reproducibility
 # Generate 50 house sizes between 500 and 3000 sq ft
 x_train = np.random.randint(500, 3000, size=50)
-# Generate prices (roughly $100–300 per sq ft + noise)
+# Generate prices (roughly $100–300 per sq ft)
 y_train = np.random.randint(100, 300, size=50)
 print("x_train (sq ft):", x_train)
 print("y_train (price in dollars):", y_train)

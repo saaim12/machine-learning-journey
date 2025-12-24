@@ -35,7 +35,7 @@ plt.show()
 # - Commonly used for model predictions, loss curves, time-series
 #
 # Example mental model:
-# "Here is the trend / function / model"
+# "Here is the trend / function points / model line"
 
 # ------------------------------------------------
 
