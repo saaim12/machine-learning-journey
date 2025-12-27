@@ -47,3 +47,11 @@ plt.plot(x, y_pred, color='green', label='Model line (w=0.5, b=1)')
 plt.legend()
 plt.show()
 ## This code computes the cost function for a simple linear regression model and visualizes the data points along with the model line for different parameters w and b.
+w_values = np.linspace(-1, 3, 50)
+cost_values = [compute_cost(x, y, w, b=2, m=m) for w in w_values]
+
+plt.plot(w_values, cost_values, color='purple')
+plt.xlabel("w")
+plt.ylabel("Cost")
+plt.title("Cost vs w (b=2)")
+plt.show()
